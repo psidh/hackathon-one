@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <div className="bg-[#00665B] py-6 px-6 flex items-center justify-between text-[#F1DEBD]">
-      <div>
+      <a href="/">
         <Image
           src="/gitam-logo.svg"
           width={200}
@@ -11,7 +11,7 @@ export default function Navbar() {
           className="object-cover w-8 h-8"
           alt="alter image"
         />
-      </div>
+      </a>
       <div className="flex items-center space-x-5 justify-center">
         <h1 className="text-xl sm:text-4xl font-semibold">GITAM</h1>
         <div className="hidden sm:flex h-[50px] border border-[#F1DEBD]"></div>
